@@ -1,0 +1,16 @@
+[target]
+exe = "eldenring.exe"
+
+[overlay]
+theme = "erdtree-dark"
+hotkey = "F8"
+opacity = 0.92
+
+[safety]
+require_offline = true
+auto_backup_save = true
+backup_dir = "backups/"
+
+[scan]
+signature_db = "data/signatures.json"
+chunk_size = 65536

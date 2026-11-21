@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+dist/
+build/
+
+# C# sidecar
+erdtree_native/bin/
+erdtree_native/obj/
+*.user
+
+# runtime artifacts
+backups/*.sl2
+logs/
+*.log
+
+# editors
+.vscode/
+.idea/

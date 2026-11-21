@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0e0d0b"/>
+  <g transform="translate(128,120)">
+    <!-- Outer weathered square frame, rotated slightly for composed tension -->
+    <g transform="rotate(-4)">
+      <path d="M -96 -88 L 92 -88 L 92 96 L -96 96 Z" fill="none" stroke="#8a5a2b" stroke-width="2.5"/>
+      <path d="M -90 -82 L 86 -82 L 86 90 L -90 90 Z" fill="none" stroke="#c9a227" stroke-width="1" opacity="0.55"/>
+      <!-- Corner heraldic ticks -->
+      <path d="M -96 -88 L -78 -88 M -96 -88 L -96 -70" stroke="#c9a227" stroke-width="3"/>
+      <path d="M 92 -88 L 74 -88 M 92 -88 L 92 -70" stroke="#c9a227" stroke-width="3"/>
+      <path d="M -96 96 L -78 96 M -96 96 L -96 78" stroke="#c9a227" stroke-width="3"/>
+      <path d="M 92 96 L 74 96 M 92 96 L 92 78" stroke="#c9a227" stroke-width="3"/>
+    </g>
+
+    <!-- Central Erdtree sigil: trunk splitting into circuit roots -->
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Main trunk (engraved, split) -->
+      <path d="M 0 -46 C -2 -30 -3 -18 -2 2 C -1 14 1 26 2 36" stroke="#d8c9a3" stroke-width="5"/>
+      <path d="M 0 -46 C 2 -30 3 -18 2 2 C 1 14 -1 26 -2 36" stroke="#d8c9a3" stroke-width="5"/>
+      <!-- Cracked trunk inner shadow line -->
+      <path d="M -1 -40 L 1 -28 L -1 -16 L 1 -4 L -1 8 L 1 20 L -1 32" stroke="#0e0d0b" stroke-width="1.5"/>
+
+      <!-- Canopy branches (heraldic, upward arc) -->
+      <path d="M 0 -46 C -12 -60 -26 -64 -40 -58" stroke="#c9a227" stroke-width="3.5"/>
+      <path d="M 0 -46 C 12 -60 26 -64 40 -58" stroke="#c9a227" stroke-width="3.5"/>
+      <path d="M 0 -46 C -6 -68 -18 -80 -34 -82" stroke="#c9a227" stroke-width="3"/>
+      <path d="M 0 -46 C 6 -68 18 -80 34 -82" stroke="#c9a227" stroke-width="3"/>
+      <path d="M 0 -46 L 0 -84" stroke="#c9a227" stroke-width="3"/>
+      <path d="M 0 -84 L -8 -90 M 0 -84 L 8 -90" stroke="#d8c9a3" stroke-width="2"/>
+
+      <!-- Canopy leaf nodes (circuit junctions) -->
+      <circle cx="-40" cy="-58" r="3" fill="#c9a227"/>
+      <circle cx="40" cy="-58" r="3" fill="#c9a227"/>
+      <circle cx="-34" cy="-82" r="2.5" fill="#d8c9a3"/>
+      <circle cx="34" cy="-82" r="2.5" fill="#d8c9a3"/>
+      <circle cx="0" cy="-84" r="2.5" fill="#d8c9a3"/>
+
+      <!-- Circuit root system (right side) -->
+      <path d="M 2 36 L 22 50 L 40 50 L 52 62" stroke="#d8c9a3" stroke-width="3"/>
+      <path d="M 40 50 L 44 34 L 62 30" stroke="#8a5a2b" stroke-width="3"/>
+      <path d="M 52 62 L 72 62 L 80 74" stroke="#c9a227" stroke-width="2.5"/>
+      <path d="M 62 30 L 62 14 L 78 8" stroke="#c9a227" stroke-width="2.5"/>
+      <circle cx="52" cy="62" r="3.5" fill="#c9a227"/>
+      <circle cx="62" cy="30" r="3" fill="#8a5a2b"/>
+      <circle cx="80" cy="74" r="3" fill="#d8c9a3"/>
+      <circle cx="78" cy="8" r="3" fill="#d8c9a3"/>
+      <path d="M 72 62 L 72 48" stroke="#8a5a2b" stroke-width="2"/>
+
+      <!-- Circuit root system (left side, mirrored but broken/weathered) -->
+      <path d="M -2 36 L -24 52 L -42 52" stroke="#d8c9a3" stroke-width="3"/>
+      <path d="M -42 52 L -48 36 L -64 30" stroke="#8a5a2b" stroke-width="3"/>
+      <path d="M -42 52 L -60 62 L -72 62" stroke="#c9a227" stroke-width="2.5"/>
+      <path d="M -64 30 L -64 12 L -80 6" stroke="#c9a227" stroke-width="2.5"/>
+      <circle cx="-42" cy="52" r="3.5" fill="#c9a227"/>
+      <circle cx="-64" cy="30" r="3" fill="#8a5a2b"/>
+      <circle cx="-72" cy="62" r="3" fill="#d8c9a3"/>
+      <circle cx="-80" cy="6" r="3" fill="#d8c9a3"/>
+      <!-- Broken circuit trace (weathered gap) -->
+      <path d="M -60 62 L -68 74" stroke="#8a5a2b" stroke-width="2" opacity="0.6"/>
+
+      <!-- Central root convergence node -->
+      <circle cx="0" cy="38" r="4.5" fill="#c9a227"/>
+      <circle cx="0" cy="38" r="2" fill="#0e0d0b"/>
+
+      <!-- Small circuit nodes along trunk -->
+      <circle cx="-3" cy="12" r="2" fill="#c9a227"/>
+      <circle cx="3" cy="-8" r="2" fill="#c9a227"/>
+      <circle cx="-2" cy="24" r="1.8" fill="#d8c9a3"/>
+
+      <!-- Cracked sigil detail: jagged crack across trunk -->
+      <path d="M 2 2 L -8 0 L -6 -6 L -14 -8" stroke="#8a5a2b" stroke-width="1.5" opacity="0.8"/>
+      <path d="M 4 -2 L 10 0 L 8 -8 L 14 -12" stroke="#8a5a2b" stroke-width="1.5" opacity="0.7"/>
+    </g>
+
+    <!-- Occult halo arc (broken, forged) -->
+    <path d="M -60 -40 A 68 68 0 0 1 60 -40" fill="none" stroke="#8a5a2b" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <path d="M -54 20 A 58 58 0 0 0 54 20" fill="none" stroke="#8a5a2b" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.6"/>
+
+    <!-- Corner rune marks (occult heraldry) -->
+    <g stroke="#d8c9a3" stroke-width="1.5" fill="none">
+      <path d="M -78 -70 L -66 -70 M -78 -70 L -78 -58"/>
+      <path d="M 78 -70 L 66 -70 M 78 -70 L 78 -58"/>
+      <path d="M -78 78 L -66 78 M -78 78 L -78 66"/>
+      <path d="M 78 78 L 66 78 M 78 78 L 78 66"/>
+    </g>
+  </g>
+
+  <!-- Wordmark, small, bottom -->
+  <text x="128" y="238" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="3" fill="#8a5a2b" opacity="0.85">ERDTREE-MODMENU</text>
+</svg>
